@@ -22,7 +22,7 @@
     "coverage": "ethereumjs-config-coverage",
     "docs:build": "typedoc --options typedoc.js",
     "format": "ethereumjs-config-format",
-    "format:fix": "ethereumjs-config-format-fix",    
+    "format:fix": "ethereumjs-config-format-fix",
     "lint": "ethereumjs-config-lint",
     "lint:fix": "ethereumjs-config-lint-fix",
     "test": "npm run test:node && npm run test:browser",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@ethereumjs/common": "^2.2.0",
-    "merkle-patricia-tree": "^4.1.0",
     "@ethereumjs/tx": "^3.1.3",
-    "ethereumjs-util": "^7.0.10"
+    "merkle-patricia-tree": "^4.1.0",
+    "sbr-util": "git+https://github.com/siliconswampio/sbr-util.git"
   },
   "devDependencies": {
     "@ethereumjs/config-coverage": "^2.0.0",

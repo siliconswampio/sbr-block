@@ -1,5 +1,5 @@
 import tape from 'tape'
-import { BN, rlp, zeros } from 'ethereumjs-util'
+import { BN, rlp, zeros } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { Block, BlockBuffer } from '../src'
 import blockFromRpc from '../src/from-rpc'

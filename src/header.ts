@@ -13,7 +13,7 @@ import {
   toBuffer,
   unpadBuffer,
   zeros,
-} from 'ethereumjs-util'
+} from 'sbr-util'
 import { HeaderData, JsonHeader, BlockHeaderBuffer, Blockchain, BlockOptions } from './types'
 import {
   CLIQUE_EXTRA_VANITY,

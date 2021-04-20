@@ -1,5 +1,5 @@
 import tape from 'tape'
-import { BN, toBuffer, bufferToInt } from 'ethereumjs-util'
+import { BN, toBuffer, bufferToInt } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { Block } from '../src'
 

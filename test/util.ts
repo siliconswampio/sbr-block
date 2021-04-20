@@ -1,5 +1,5 @@
 import Common from '@ethereumjs/common'
-import { BN, rlp, keccak256 } from 'ethereumjs-util'
+import { BN, rlp, keccak256 } from 'sbr-util'
 import { Block, BlockHeader } from '../src'
 
 /**

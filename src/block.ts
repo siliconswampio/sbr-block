@@ -1,7 +1,7 @@
 /* eslint-disable no-dupe-class-members */
 
 import { BaseTrie as Trie } from 'merkle-patricia-tree'
-import { BN, rlp, keccak256, KECCAK256_RLP } from 'ethereumjs-util'
+import { BN, rlp, keccak256, KECCAK256_RLP } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { TransactionFactory, TypedTransaction, TxOptions } from '@ethereumjs/tx'
 import { BlockHeader } from './header'

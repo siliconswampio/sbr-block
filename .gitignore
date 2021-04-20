@@ -2,6 +2,5 @@ test-build
 
 .nyc_output
 coverage
-dist
-dist.browser
 node_modules/
+package-lock.json

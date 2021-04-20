@@ -1,5 +1,5 @@
 import { TransactionFactory, TypedTransaction, TxData } from '@ethereumjs/tx'
-import { toBuffer, setLengthLeft } from 'ethereumjs-util'
+import { toBuffer, setLengthLeft } from 'sbr-util'
 import { Block, BlockOptions } from './index'
 
 import blockHeaderFromRpc from './header-from-rpc'

@@ -1,4 +1,4 @@
-import { AddressLike, BNLike, BufferLike } from 'ethereumjs-util'
+import { AddressLike, BNLike, BufferLike } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { AccessListEIP2930TxData, TxData, JsonTx } from '@ethereumjs/tx'
 import { Block } from './block'

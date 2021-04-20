@@ -1,5 +1,5 @@
 import tape from 'tape'
-import { Address, BN, zeros, KECCAK256_RLP, KECCAK256_RLP_ARRAY } from 'ethereumjs-util'
+import { Address, BN, zeros, KECCAK256_RLP, KECCAK256_RLP_ARRAY } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { BlockHeader } from '../src/header'
 import { Block } from '../src'
