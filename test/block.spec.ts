@@ -1,6 +1,6 @@
 import tape from 'tape'
 import { BN, rlp, zeros } from 'sbr-util'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Block, BlockBuffer } from '../src'
 import blockFromRpc from '../src/from-rpc'
 import { Mockchain } from './mockchain'

@@ -1,9 +1,9 @@
 /// <reference types="node" />
 /// <reference types="bn.js" />
-import { BaseTrie as Trie } from 'merkle-patricia-tree';
+import { BaseTrie as Trie } from 'sbr-merkle-patricia-tree';
 import { BN } from 'sbr-util';
-import Common from '@ethereumjs/common';
-import { TypedTransaction } from '@ethereumjs/tx';
+import Common from '@sbr/common';
+import { TypedTransaction } from '@sbr/tx';
 import { BlockHeader } from './header';
 import { BlockData, BlockOptions, JsonBlock, BlockBuffer, Blockchain } from './types';
 /**

@@ -1,6 +1,6 @@
 /// <reference types="node" />
 /// <reference types="bn.js" />
-import Common from '@ethereumjs/common';
+import Common from '@sbr/common';
 import { Address, BN } from 'sbr-util';
 import { HeaderData, JsonHeader, BlockHeaderBuffer, Blockchain, BlockOptions } from './types';
 /**

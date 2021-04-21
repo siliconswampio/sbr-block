@@ -2,9 +2,9 @@
 /* eslint-disable no-dupe-class-members */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Block = void 0;
-const merkle_patricia_tree_1 = require("merkle-patricia-tree");
+const sbr_merkle_patricia_tree_1 = require("sbr-merkle-patricia-tree");
 const sbr_util_1 = require("sbr-util");
-const tx_1 = require("@ethereumjs/tx");
+const tx_1 = require("@sbr/tx");
 const header_1 = require("./header");
 /**
  * An object that represents the block.
@@ -18,7 +18,7 @@ class Block {
         var _a;
         this.transactions = [];
         this.uncleHeaders = [];
-        this.txTrie = new merkle_patricia_tree_1.BaseTrie();
+        this.txTrie = new sbr_merkle_patricia_tree_1.BaseTrie();
         this.header = header || header_1.BlockHeader.fromHeaderData({}, opts);
         this.transactions = transactions;
         this.uncleHeaders = uncleHeaders;

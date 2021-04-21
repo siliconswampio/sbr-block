@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BlockHeader = void 0;
-const common_1 = __importDefault(require("@ethereumjs/common"));
+const common_1 = __importDefault(require("@sbr/common"));
 const sbr_util_1 = require("sbr-util");
 const clique_1 = require("./clique");
 const DEFAULT_GAS_LIMIT = new sbr_util_1.BN(Buffer.from('ffffffffffffff', 'hex'));

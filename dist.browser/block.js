@@ -76,9 +76,9 @@ var __read = (this && this.__read) || function (o, n) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Block = void 0;
-var merkle_patricia_tree_1 = require("merkle-patricia-tree");
+var sbr_merkle_patricia_tree_1 = require("sbr-merkle-patricia-tree");
 var sbr_util_1 = require("sbr-util");
-var tx_1 = require("@ethereumjs/tx");
+var tx_1 = require("@sbr/tx");
 var header_1 = require("./header");
 /**
  * An object that represents the block.
@@ -95,7 +95,7 @@ var Block = /** @class */ (function () {
         var _a;
         this.transactions = [];
         this.uncleHeaders = [];
-        this.txTrie = new merkle_patricia_tree_1.BaseTrie();
+        this.txTrie = new sbr_merkle_patricia_tree_1.BaseTrie();
         this.header = header || header_1.BlockHeader.fromHeaderData({}, opts);
         this.transactions = transactions;
         this.uncleHeaders = uncleHeaders;

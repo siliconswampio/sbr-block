@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var tx_1 = require("@ethereumjs/tx");
+var tx_1 = require("@sbr/tx");
 var sbr_util_1 = require("sbr-util");
 var index_1 = require("./index");
 var header_from_rpc_1 = __importDefault(require("./header-from-rpc"));

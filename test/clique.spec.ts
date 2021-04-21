@@ -1,5 +1,5 @@
 import tape from 'tape'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { BlockHeader } from '../src/header'
 import { Address } from 'sbr-util'
 

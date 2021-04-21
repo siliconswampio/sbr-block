@@ -1,6 +1,6 @@
 import tape from 'tape'
 import { BN, toBuffer, bufferToInt } from 'sbr-util'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Block } from '../src'
 
 function isHexPrefixed(str: string) {

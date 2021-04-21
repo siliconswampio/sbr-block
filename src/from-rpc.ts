@@ -1,4 +1,4 @@
-import { TransactionFactory, TypedTransaction, TxData } from '@ethereumjs/tx'
+import { TransactionFactory, TypedTransaction, TxData } from '@sbr/tx'
 import { toBuffer, setLengthLeft } from 'sbr-util'
 import { Block, BlockOptions } from './index'
 

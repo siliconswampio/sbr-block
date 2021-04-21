@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { AddressLike, BNLike, BufferLike } from 'sbr-util';
-import Common from '@ethereumjs/common';
-import { AccessListEIP2930TxData, TxData, JsonTx } from '@ethereumjs/tx';
+import Common from '@sbr/common';
+import { AccessListEIP2930TxData, TxData, JsonTx } from '@sbr/tx';
 import { Block } from './block';
 import { BlockHeader } from './header';
 /**
